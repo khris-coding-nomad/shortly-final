@@ -4,7 +4,7 @@ const UrlForm = () => (
   <div className="mt-10 sm:mt-12">
     <form className="sm:mx-auto lg:mx-0">
       <div className="sm:flex">
-        <div classname="min-w-0 flex-1">
+        <div className="min-w-0 flex-1">
           <label htmlFor="url" className="sr-only">
             URL Input
           </label>
