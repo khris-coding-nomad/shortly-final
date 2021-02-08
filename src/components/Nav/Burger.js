@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const MobileNav = ({ active, setActive }) => (
   <div className="flex items-center w-full sm:hidden">
     <button
@@ -25,4 +27,4 @@ const MobileNav = ({ active, setActive }) => (
   </div>
 );
 
-export default MobileNav;
+export default memo(MobileNav);

@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { navLinks } from "./Nav";
 
 const MobileNav = ({ active, setActive }) => (
@@ -70,4 +71,4 @@ const MobileNav = ({ active, setActive }) => (
   </div>
 );
 
-export default MobileNav;
+export default memo(MobileNav);

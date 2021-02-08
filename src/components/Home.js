@@ -2,8 +2,8 @@ import { memo } from "react";
 import UrlForm from "./UrlForm";
 
 const Home = () => (
-  <div className="pt-6 h-full flex justify-center">
-    <div className="bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+  <div className="pt-12 h-full flex justify-center">
+    <div className="bg-gray-900 pt-8 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 md:text-left">
