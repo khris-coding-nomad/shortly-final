@@ -36,7 +36,7 @@ const UrlForm = () => {
 
   return (
     <div className="mt-10 sm:mt-12">
-      <form className="sm:mx-auto lg:mx-0" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="sm:flex">
           <div className="min-w-0 flex-1">
             <label htmlFor="url" className="sr-only">
